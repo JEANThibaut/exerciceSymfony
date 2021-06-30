@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Article {{article.id}} {% endblock %}
+
+{% block body %}
+<div >
+ 
+    <div class="card">
+        <h2 class="text-center">{{article.title}} {{article.id}}</h2>
+        <h3>Catégorie :{{article.category}}</h3>
+        <div>{{article.content}}</div>
+    </div>
+    
+</div>    
+{% endblock %}

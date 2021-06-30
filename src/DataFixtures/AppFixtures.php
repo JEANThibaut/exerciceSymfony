@@ -13,7 +13,7 @@ class AppFixtures extends Fixture
 
         for($i=0;$i<10;$i++){
         $article = new Article();
-        $article->setTitle('Exemple de titre');
+        $article->setTitle('Exemple de titre ');
         $article->setContent('Du contenu pour remplir la table content dans la base de données forumApp');
         $article->setPublished(new \Datetime());
         $article->setAuthor("Moi-même");
